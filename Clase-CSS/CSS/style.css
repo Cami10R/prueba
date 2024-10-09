@@ -1,0 +1,37 @@
+/*
+    Cuando una regla empieza con (.), se refiere a una clase
+*/
+
+.container{
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    background-color: black; 
+    width: 500px
+
+}
+
+.container.bloque-1.talentotech {
+
+    color: aqua;
+    background-color: brown;
+    font-size: small;
+    text-align: justify;
+}
+
+.container.bloque-2.talentotech {
+
+    color: rgb(115, 17, 122);
+    background-color: rgb(0, 0, 0);
+    font-size: small;   
+    text-align: center;
+}
+
+.container.bloque-3.talentotech {
+
+    color: rgb(81, 255, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: small;
+    text-align: right;
+}
+

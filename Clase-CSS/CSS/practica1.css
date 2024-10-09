@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    padding: 15px;
+    background-color: salmon;
+    column-span: all;
+}
+
+.galeria img    {
+    display:inline-flex;
+    width:200px;    
+    height:150px;
+    margin: 10px;
+   /* border: 10px;*/
+    border-color: blueviolet;
+    border-style: double;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+
+        
+}

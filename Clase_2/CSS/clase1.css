@@ -1,0 +1,159 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ccc;
+
+}
+header {
+    background-color: #c2201dd7;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+nav {
+    background-color: #000000;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+nav ul li {float: left;}
+
+nav ul li a {
+    display: block;
+    color: rgb(199, 30, 30);
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 20px;  
+
+}
+nav ul li  a:hover {
+    background-color: #f7f7f7;
+}
+    
+nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin: auto;
+    
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #e80707b2;
+}
+
+.contenedor-botones {
+    display: grid;
+    place-items: center; /* Centra los botones en ambas direcciones */
+    }
+  
+button
+{display: inline-block; /* Asegura que los botones no se expandan en todo el ancho */
+    margin: 10px 0; /* Margen entre los botones */
+    border: none;
+    cursor: pointer;
+    justify-items: center;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+
+
+
+form {
+    margin-top: 50px;
+    text-align: center;
+}
+form input[type="text"],
+form input[type="email"]
+ {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+form input[type="submit"] {
+    background-color: #af4c4c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+form input[type="submit"]:hover {
+    background-color: #a04545;
+}
+
+.margen-parrafo {
+    margin: 50px; /* Aplica un margen de 20 píxeles */
+}
+
+.audio-player {
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+.audio-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.audio-controls button {
+    background-color: #f90e0e;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.audio-controls button:hover {
+    background-color: #f01010;
+}
+.audio-progress {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.audio-progress input[type="range"] {
+    width: 100%;
+}
+
+
+audio 
+{
+            width: 300px;  /*Ajusta el ancho del reproductor*/
+            height: 20px; /* Ajusta la altura del reproductor*/
+            margin-top: 20px;
+            text-align: center;
+}
+
+footer {text-align: center;}

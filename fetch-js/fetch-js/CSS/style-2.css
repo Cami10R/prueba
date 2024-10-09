@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(5, 5, 5);
+    padding: 50px;
+    margin: 0;
+}
+
+.busqueda{ /* Use a semantic element for navigation */
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin: 5px 30px;
+    box-shadow: 20px gray;
+}
+
+button {
+    border-radius: 10px;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: 600;
+    transition: background-color 0.2s ease-in-out; /* Add hover effect */
+}
+
+button:hover {
+    background-color: #8e0202;
+}
+
+#buscar {
+    border-radius: 10px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #8e0202;
+    margin-bottom: 150px;
+}
+
+label {
+    font-weight: 600;
+}
+
+.data-respuesta {
+    display: none;
+    width: 600px;
+    margin: auto;
+}
+
+table {
+    width: 40%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin: auto;
+    background-color: #24303c;
+    border-radius: 20px;
+    box-shadow: 300px solid black;
+    padding-top: 100px;
+
+    
+}
+
+table:hover{
+    background-color: #8e0202;
+}
+table, th, td {
+    border: 1px
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th{color: lightskyblue;
+font-size: 16px;}
+
+td{
+    color: rgb(112, 199, 211);
+}

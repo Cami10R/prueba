@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <title>Formulario</title>
+</head>
+
+<body>
+
+    <div class="formulario" id="formulario">
+        <form autocomplete="off">
+            <h2>Registro de usuario</h2>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="name" placeholder="Ingrese nombre" required autocomplete="off">
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Ingrese apellido" required autocomplete="off">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Ingrese correo electronico" required
+                autocomplete="off">
+
+            <label for="Celular">Celular:</label>
+            <input type="number" id="Celular" name="Celular" placeholder="Ingrese numero de celular" required
+                autocomplete="off">
+
+            <div class="form-genero">
+                <label for="genero" id="selector">Genero</label>
+                <label><input type="radio" id="genero" name="genero" value="masculino"> Masculino</label>
+                <label><input type="radio" name="genero" value="femenino"> Femenino</label>
+                <label><input type="radio" name="genero" value="otro"> Otro</label>
+            </div>
+
+            <div class="form-txt">
+                <a href="#">Politica de Privacidad</a>
+                <a href="#">Terminos y condiciones</a>
+            </div>
+
+            <input class="boton" id="btn" type="button" value="Registrar" onclick="agregartexto()">
+
+
+
+
+        </form>
+
+
+    </div>
+
+    <div id="tabla-form">
+        
+    <div class="tbtittle">
+        <thead>Datos del Formulario</thead>
+    </div>
+    
+        <table id="tbldatos">
+
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Email</th>
+                <th>Celular</th>
+                <th>Genero</th>
+            </tr>
+
+
+        </table>
+
+    </div>
+
+
+
+    <script src="form.js"></script>
+</body>
+
+</html>
